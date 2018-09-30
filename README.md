@@ -17,4 +17,6 @@ And translated files are written in the form:
   
   `OriginalC:TranslatedC,`
   
+You'll find both the origin file and translated files in `x\dist\master`.
+
 This is most useful for localising other projects.

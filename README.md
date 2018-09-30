@@ -3,18 +3,18 @@ Simple translation utility that writes to a file. That's all there is to it. The
 
 The origin file (aka what you are asked to translate from) is written in the form:
 
-  A,
+ ` A,`
   
-  B,
+  `B,`
   
-  C,
+  `C,`
   
 And translated files are written in the form:
 
-  OriginalA:TranslatedA,
+ ` OriginalA:TranslatedA,`
   
-  OriginalB:TranslatedB,
+  `OriginalB:TranslatedB,`
   
-  OriginalC:TranslatedC,
+  `OriginalC:TranslatedC,`
   
 This is most useful for localising other projects.

@@ -17,7 +17,7 @@ def Translate(_lang):
     while (len(terms) > 0):
         print("Please translate the following:")
         currentTermTranslated = raw_input(terms[0]+" > ")
-        currentTranslation.write(currentTermTranslated+",\n")
+        currentTranslation.write(terms[0]+":"+currentTermTranslated+",\n")
         terms.pop(0)
 
 
